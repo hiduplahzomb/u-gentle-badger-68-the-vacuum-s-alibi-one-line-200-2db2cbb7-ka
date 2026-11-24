@@ -1,17 +1,18 @@
 """The Vacuum's Alibi: one line, 200 characters or fewer.
 
-The robot vacuum explains why it missed a spot. The angle is legal
-defense: the vacuum did not fail to clean the spot — the dust filed a
-restraining order, and the vacuum's firmware obeys court orders. The
-line is one abrupt sentence and stops there: no hearing, no timeline,
-no justification. A deadpan machine states the constraint and says
-nothing more; the silence after the order is the punchline.
+The robot vacuum explains why it missed a spot. The angle is a formal
+court order: the vacuum did not fail to clean the spot — the dust won a
+restraining order under statute 12-C, the sock was seized as exhibit A,
+and cleaning is banned within 500 m of the scene. The line reads like a
+docket entry, not a story: case number first, statute and evidence in
+the middle, ruling code last. A deadpan machine cites the order and
+stops — the ruling, not an apology, is the punchline.
 """
 
 import os
 import sys
 
-TEXT = "The dust filed a restraining order against me."
+TEXT = "ORDER #4471: dust v. VAC-2147 — restraining order granted, statute 12-C, sock seized as exhibit A, cleaning banned within 500 m. RULING: CASE CLOSED."
 
 
 def main() -> int:
